@@ -1,0 +1,33 @@
+name: sklearn-presentation
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - cython
+  - mkl-service
+  - theano
+  - graphviz
+  - pydot
+  - pymc3
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pandas
+  - numpy
+  - bottleneck
+  - jupyterlab
+  - nodejs
+  - widgetsnbextension
+  - ipywidgets
+  - matplotlib
+  - seaborn
+  - bokeh
+  - pip
+  - tensorflow
+  - keras
+  - catboost
+  # - pip:
+  #   - --trusted-host onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - --extra-index-url http://onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - analytics-duc

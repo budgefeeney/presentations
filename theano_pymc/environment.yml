@@ -1,0 +1,33 @@
+name: pymc3-theano-presentation
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - cython
+  - arviz
+  - pymc3=3.11        # PyMC3 and Theano are deeply coupled and we can't rely
+  - theano-pymc=1.1.2 # on conda to find a compatible combination of versions
+  - mkl
+  - mkl-service
+  - graphviz
+  - pydot
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pandas
+  - numpy
+  - bottleneck
+  - jupyterlab
+  - nodejs
+  - widgetsnbextension
+  - ipywidgets
+  - matplotlib
+  - seaborn
+  - bokeh
+  - pytables
+  - pip
+  # - pip:
+  #   - --trusted-host onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - --extra-index-url http://onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - analytics-duc

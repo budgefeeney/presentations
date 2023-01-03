@@ -1,0 +1,32 @@
+name: bayesian-metric-calcs
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - cython
+  - arviz
+  - pymc>=4.2
+  - mkl
+  - mkl-service
+  - graphviz
+  - pydot
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pandas
+  - numpy
+  - bottleneck
+  - jupyterlab
+  - nodejs
+  - widgetsnbextension
+  - ipywidgets
+  - matplotlib
+  - seaborn
+  - bokeh
+  - pytables
+  - pip
+  # - pip:
+  #   - --trusted-host onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - --extra-index-url http://onzo-pypi.s3-website-eu-west-1.amazonaws.com
+  #   - analytics-duc
